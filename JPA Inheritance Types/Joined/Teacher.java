@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="teachers")
 @Inheritance(strategy = InheritanceType.JOINED)
+@PrimaryKeyJoinColumn(name = "teacher_Id")
 public class Teacher extends User {
 	
 	@Column(name="subject", nullable = false, length = 30)

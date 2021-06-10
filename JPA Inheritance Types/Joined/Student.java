@@ -14,8 +14,7 @@ import lombok.NoArgsConstructor;
 @Table(name="students")
 @PrimaryKeyJoinColumn(name = "student_Id")
 public class Student extends User {
-	
-	
+		
 	// Example numbers = 294,98012...
 	@Column(name="school_number", nullable = false, length = 20)
 	private int schoolNumber;

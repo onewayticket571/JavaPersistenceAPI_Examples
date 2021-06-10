@@ -27,7 +27,4 @@ public class Teacher extends User {
 		this.subject = subject;
 		this.experience = experience;
 	}
-	
-	
-
 }

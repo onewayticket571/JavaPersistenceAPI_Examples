@@ -33,6 +33,5 @@ public class Student extends User {
 		this.schoolNumber = schoolNumber;
 		this.classLevel = classLevel;
 		this.classBranch = classBranch;
-	}
-		
+	}		
 }
